@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="format-detection" content="telephone=no">
+	<title>Automated Aquaponic Garden </title>
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/all.css" />
+	<link rel="stylesheet" href="css/screen.css" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="wrapper">
+		<div class="wrapper-holder">
+			<header id="header">
+				<a class="menu_trigger" href="#">menu</a>
+					<nav id="nav">
+						<ul>
+							<li><a class="active" href="index.html">Home</a></li>
+							<li><a href="myskills.html">Growth Charts</a></li>
+							<li><a href="Portfolio.html">New Growth Data</a></li>
+							<li><a href="Contact.html">Settings</a></li>
+						</ul>
+					</nav>
+				<h1 class="logo">Automated Aquaponic Garden</h1>
+				<h2 class="slogan">Let's grow something</h2>
+			</header>
+		</div>
+		<div class="wrapper-holder grey">
+			<section id="main">
+				<h2>Current Outlet Schedule</h2>
+				<form>
+				<div class="box_timeline_holder">
+					<div class="box_timeline">
+						<ul>
+							<li>
+								<div class="dateOn">
+									<span>ON</span>
+								</div>
+								<h3>Socket 1</h3>
+								<label for="SocketName1">Socket name:</label><br>
+								<input type="text" id="s1name" name="s1name"><br>
+								 <select name="S1Type" id="S1Type">
+									Type of Socket:<option value="" selected="selected">Click Only</option>
+												   <option value="" >Schedule</option>
+												   <option value="">Interval</option>
+								  </select>
+								<br>
+								<input type="radio" id="html" name="radio1" value="s1On">
+							    <label for="html">ON</label>
+							    <input type="radio" id="css" name="radio1" value="s1Off">
+							    <label for="css">OFF</label>
+							</li>
+							<li>
+								<div class="dateOff" color="#FF6347">
+									<span>OFF</span>
+								</div>
+								<h3>Socket 2</h3>
+								<label for="SocketName2">Socket name:</label><br>
+								<input type="text" id="s2name" name="s2name"><br>
+								 <select name="S2Type" id="S2Type">
+									<option value="" >Click Only</option>
+									<option value="" selected="selected">Schedule</option>
+									<option value="">Interval</option>
+								  </select><br>
+								  <label for="S2Start">Select start time:</label>
+								  <input type="time" id="S2Start" name="S2Start"><br>
+								  <label for="S2Stop">Select stop time:</label><br>
+								  <input type="time" id="S2Stop" name="S2Stop">
+								<br>
+								
+							</li>
+							<li>
+								<div class="dateOff">
+									<span color="#FF6347">OFF</span>
+								</div>
+								<h3>Socket 3</h3>
+								<label for="SocketName3">Socket name:</label><br>
+								<input type="text" id="s3name" name="s3name"><br>
+								 <select name="S3Type" id="S3Type">
+									<option value="" >Click Only</option>
+									<option value="">Schedule</option>
+									<option value="" selected="selected">Interval</option>
+								  </select><br>
+								  <label for="S3Interval">Intervals per 60 mins :</label>
+									<input type="range" id="S3Interval" name="S3Interval" min="0" max="60">
+								<br>
+								
+							</li>
+							<li>
+								<div class="dateOff">
+									<span color="#FF6347">OFF</span>
+								</div>
+								<h3>Socket 4</h3>
+								<label for="SocketName4">Socket name:</label><br>
+								<input type="text" id="s4name" name="s3name"><br>
+								 <select name="S4Type" id="S4Type">
+									<option value="" >Click Only</option>
+									<option value="">Schedule</option>
+									<option value="" selected="selected">Interval</option>
+								  </select><br>
+								  <label for="S4Interval">Intervals per 60 mins :</label>
+									<input type="range" id="S4Interval" name="S4Interval" min="0" max="60">
+								<br>
+								
+							</li>
+						</ul>
+					</div>
+				</div>
+				<br><br><br><br>
+				<br><br><br>
+				<div class="box_timeline_holder">
+					<div class="box_timeline">
+						<ul>
+							<li>
+								<div class="dateOn">
+									<span>ON</span>
+								</div>
+								<h3>Socket 5</h3>
+								<label for="SocketName5">Socket name:</label><br>
+								<input type="text" id="s5name" name="s5name"><br>
+								 <select name="S5Type" id="S5Type">
+									Type of Socket:<option value="" selected="selected">Click Only</option>
+												   <option value="" >Schedule</option>
+												   <option value="">Interval</option>
+								  </select>
+								<br>
+								<input type="radio" id="html" name="radio5" value="s5On">
+							    <label for="html">ON</label>
+							    <input type="radio" id="css" name="radio5" value="s5Off">
+							    <label for="css">OFF</label>
+							</li>
+							<li>
+								<div class="dateOff" color="#FF6347">
+									<span>OFF</span>
+								</div>
+								<h3>Socket 6</h3>
+								<label for="SocketName6">Socket name:</label><br>
+								<input type="text" id="s2name" name="s2name"><br>
+								 <select name="S6Type" id="S6Type">
+									<option value="" >Click Only</option>
+									<option value="" selected="selected">Schedule</option>
+									<option value="">Interval</option>
+								  </select><br>
+								  <label for="S6Start">Select start time:</label>
+								  <input type="time" id="S6Start" name="S6Start"><br>
+								  <label for="S6Stop">Select stop time:</label><br>
+								  <input type="time" id="S6Stop" name="S6Stop">
+								<br>
+								
+							</li>
+							<li>
+								<div class="dateOff">
+									<span color="#FF6347">OFF</span>
+								</div>
+								<h3>Socket 7</h3>
+								<label for="SocketName7">Socket name:</label><br>
+								<input type="text" id="s7name" name="s7name"><br>
+								 <select name="S7Type" id="S7Type">
+									<option value="" >Click Only</option>
+									<option value="">Schedule</option>
+									<option value="" selected="selected">Interval</option>
+								  </select><br>
+								  <label for="S7Interval">Intervals per 60 mins :</label>
+									<input type="range" id="S7Interval" name="S7Interval" min="0" max="60">
+								<br>
+								
+							</li>
+							<li>
+								<div class="dateOff">
+									<span color="#FF6347">OFF</span>
+								</div>
+								<h3>Socket 8</h3>
+								<label for="SocketName8">Socket name:</label><br>
+								<input type="text" id="s8name" name="s8name"><br>
+								 <select name="S8Type" id="S8Type">
+									<option value="" >Click Only</option>
+									<option value="">Schedule</option>
+									<option value="" selected="selected">Interval</option>
+								  </select><br>
+								  <label for="S8Interval">Intervals per 60 mins :</label>
+									<input type="range" id="S8Interval" name="S8Interval" min="0" max="60">
+								<br>
+								
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+		</form>
+		<footer id="footer">
+			<div class="footer-content">
+				<section>
+					<div class="box_timeline_holder">
+						<div class="box_timeline">
+							<ul>
+								<li>
+									<h3>Plant 1</h3>
+									<div class="plant"></div>
+									<label for="plant1">Plant name:</label><br>
+									<input type="text" id="plant1name" name="plant1name"><br>
+									<label for="plant1birthday">Plant 1 Birthday:</label>
+									<input type="date" id="plant1birthday" name="plant1birthday">
+								</li>
+								<li>
+									<h3>Plant 2</h3>
+									<div class="plant"></div>
+									<label for="plant2">Plant name:</label><br>
+									<input type="text" id="plant2name" name="plant1name"><br>
+									<label for="plant2birthday">Plant 2 Birthday:</label>
+									<input type="date" id="plant2birthday" name="plant2birthday">
+								</li>
+								<li>
+									<h3>Plant 3</h3>
+									<div class="plant"></div>
+									<label for="plant3">Plant name:</label><br>
+									<input type="text" id="plant3name" name="plant1name"><br>
+									<label for="plant3birthday">Plant 3 Birthday:</label>
+									<input type="date" id="plant3birthday" name="plant3birthday">
+								</li>
+								<li>
+									<h3>Plant 4</h3>
+									<div class="plant"></div>
+									<label for="plant4">Plant name:</label><br>
+									<input type="text" id="plant4name" name="plant1name"><br>
+									<label for="plant4birthday">Plant 4 Birthday:</label>
+									<input type="date" id="plant4birthday" name="plant4birthday">
+								</li>
+								<li>
+									<h3>Plant 5</h3>
+									<div class="plant"></div>
+									<label for="plant5">Plant name:</label><br>
+									<input type="text" id="plant5name" name="plant5name"><br>
+									<label for="plant5birthday">Plant 5 Birthday:</label>
+									<input type="date" id="plant5birthday" name="plant5birthday">
+								</li>
+							</ul>
+						</div>
+					</div>	
+				</section>
+				<br><br><br><br>
+				<br><br><br>
+				<section>
+					<div class="box_timeline_holder">
+						<div class="box_timeline">
+							<ul>
+								<li>
+									<h3>Plant 1</h3>
+									<div class="plant"></div>
+									<label for="plant1">Plant name:</label><br>
+									<input type="text" id="plant1name" name="plant1name"><br>
+									<label for="plant1birthday">Plant 1 Birthday:</label>
+									<input type="date" id="plant1birthday" name="plant1birthday">
+								</li>
+								<li>
+									<h3>Plant 2</h3>
+									<div class="plant"></div>
+									<label for="plant2">Plant name:</label><br>
+									<input type="text" id="plant2name" name="plant1name"><br>
+									<label for="plant2birthday">Plant 2 Birthday:</label>
+									<input type="date" id="plant2birthday" name="plant2birthday">
+								</li>
+								<li>
+									<h3>Plant 3</h3>
+									<div class="plant"></div>
+									<label for="plant3">Plant name:</label><br>
+									<input type="text" id="plant3name" name="plant1name"><br>
+									<label for="plant3birthday">Plant 3 Birthday:</label>
+									<input type="date" id="plant3birthday" name="plant3birthday">
+								</li>
+								<li>
+									<h3>Plant 4</h3>
+									<div class="plant"></div>
+									<label for="plant4">Plant name:</label><br>
+									<input type="text" id="plant4name" name="plant1name"><br>
+									<label for="plant4birthday">Plant 4 Birthday:</label>
+									<input type="date" id="plant4birthday" name="plant4birthday">
+								</li>
+								<li>
+									<h3>Plant 5</h3>
+									<div class="plant"></div>
+									<label for="plant5">Plant name:</label><br>
+									<input type="text" id="plant5name" name="plant5name"><br>
+									<label for="plant5birthday">Plant 5 Birthday:</label>
+									<input type="date" id="plant5birthday" name="plant5birthday">
+								</li>
+							</ul>
+						</div>
+					</div>	
+				</section>
+				<br><br><br><br>
+				<br><br><br>
+				<ul class="social">
+					<li class="email"><a href="#">Email</a></li>
+					<li class="facebook"><a href="#">Facebook</a></li>
+					<li class="google"><a href="#">Google+</a></li>
+					<li class="twitter"><a href="#">Twitter</a></li>
+					<li class="pinterest"><a href="#">Pinterest</a></li>
+				</ul>
+				<p class="copy">Copyright 2021 Wright State Group 11 (DK) All rights reserved.</p>
+			</div>
+		</footer>	
+	</div>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/cells-by-row.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		/* When the user clicks on the button,
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+		  document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown menu if the user clicks outside of it
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn')) {
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+			  var openDropdown = dropdowns[i];
+			  if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			  }
+			}
+		  }
+		} 
+	</script>
+</body>
+</html>
